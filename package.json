@@ -6,8 +6,6 @@
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js",
-    "scrape": "node scripts/runScraper.js",
-    "scrape:watch": "node scripts/runScraper.js --watch"
   },
   "dependencies": {
     "@slack/bolt": "^3.17.1",
